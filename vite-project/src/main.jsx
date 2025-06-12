@@ -3,6 +3,7 @@ import React from 'react'
 import './index.css'
 import App from './App.jsx'
 import * as reactDOM from 'react-dom/client'
+import { HashRouter } from 'react-router-dom'
 // import Navbar from './components/Navbar.jsx'
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
@@ -27,10 +28,9 @@ import * as reactDOM from 'react-dom/client'
 
 
 reactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    
+  <HashRouter>
     <App/>
-  </React.StrictMode>	
+  </HashRouter>	
 )
   
   
